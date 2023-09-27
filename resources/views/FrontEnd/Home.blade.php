@@ -1,4 +1,4 @@
-@extends('frontend.layouts.main')
+@extends('FrontEnd.Layouts.main')
 @section('main.container')
       <div class="row content_area">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 content_left">

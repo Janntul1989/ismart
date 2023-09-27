@@ -7,7 +7,7 @@ use app\http\Controllers\FrontEnd\DiseaseController;
 use app\http\Controllers\FrontEnd\RationController;
 use app\http\Controllers\FrontEnd\TokenController;
 use app\http\Controllers\FrontEnd\alert_boxController;
-use App\http\Controllers\AuthController;
+use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
