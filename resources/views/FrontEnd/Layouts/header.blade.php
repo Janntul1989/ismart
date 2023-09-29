@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="{{ asset('asset/assets/img/logo.jpg') }}">
-    <link rel="icon" href="{{ asset('asset/assets/img/logo.jpg') }}">
+    <link rel="apple-touch-icon" href="{{asset('asset/assets/img/logo.jpg')}}">
+    <link rel="icon" href="{{asset('asset/assets/img/logo.jpg')}}">
 
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/fontawesome_all.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/ma5-menu.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/fontawesome_all.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('asset/assets/css/ma5-menu.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/responsive.css')}}">
 
 
 </head>
@@ -37,7 +37,7 @@
                             <!-- source for mobile menu start -->
                             <ul class="site-menu">
                                 <li>
-                                    <a href="disease.html" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
+                                    <a href="{{url('/Disease')}}" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
 
                                 </li>
                                 <li>
@@ -337,7 +337,7 @@
                             </button>
                             <ul class="site-menu">
                                 <li>
-                                    <a href="disease.html" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
+                                    <a href="{{url('/Disease')}}"  target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
 
                                 </li>
                                 <li>
@@ -627,11 +627,14 @@
                                     <div class="registration_btn">
                                         <a href="{{ url('/Registration') }}">নিবন্ধন করুন</a>
                                     </div>
-                                    <div class="token_btn">
+                                    {{-- <div class="token_btn">
                                         <button class="token" type="button" data-bs-toggle="modal"
-                                            data-bs-target="#get_service">সেবা
-                                            নিন</button>
+                                            data-bs-target="#get_service">   <a href="{{ url('/Registration') }}">সেবা নিন</a></button> --}}
                                         <!-- Modal -->
+                                        <div class="token_btn">
+                                            <div class="token">
+                                                <a href="{{ url('/Token') }}">সেবা নিন</a>
+                                            </div>
                                         <div class="modal fade" id="get_service" tabindex="-1"
                                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">

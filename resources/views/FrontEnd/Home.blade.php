@@ -30,38 +30,38 @@
                                         aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ক্ষুরা
                                                         রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">তড়কা
                                                         রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বাদলা
                                                         রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">গলাফোলা
                                                         রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ম্যসিটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">দুধ
                                                         জ্বর</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কিটোসিস</a>
                                                 </li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ল্যাকটেশন
                                                         টিটেনি</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">পেট
                                                         ফাপা</a></li>
                                                 <li><a href="#"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত-প্রস্রাব বাব্যাবেসিওসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">লাম্পি
                                                         স্কিন ডিডিজ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">পেট
                                                         ফাপা</a></li>
                                             </ul>
@@ -80,31 +80,31 @@
                                         aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">পিপিআর</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">গোটপক্স</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ক্ষুরারোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">একথাইমা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বর্ডার ডিজিজ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এন্টারোটক্সিমিয়া</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">তড়কা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ধনুষ্টংকার</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">নিউমোনিয়া</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ফুট রট</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">সালমোনেলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">গিড রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">খোঁস পাঁচড়া রোগ</a></li>
                                             </ul>
                                         </div>
@@ -122,31 +122,31 @@
                                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রানীক্ষেত</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">গামবোরো</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বার্ড ফ্লু /এভিয়ান ইনফ্লুয়েঞ্জা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বসন্ত</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">মারেক্স ডিজিজ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">লিম্ফয়েড লিউকোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এনফেকশাস ল্যারিংগোট্রাকিয়াটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">মাইক্রোপ্লাজমোলেসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত আমাশায়</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এভিয়ান গাউট</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ফাউল টাইফয়েড/a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ফাউল কলেরা</a></li>
                                             </ul>
                                         </div>
@@ -164,23 +164,23 @@
                                         aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ভাইরাস হেপাটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">প্লেগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ভাইরাস এন্টারাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রিমেরেলা অ্যানাটিপেস্টিফার ইনফেকশন</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এভিয়ান কলেরা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কলিব্যাসিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">অ্যাসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">টক্সিন</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">অ্যাফ্লাটক্সিন বিষক্রিয়া</a></li>
                                             </ul>
                                         </div>
@@ -198,23 +198,23 @@
                                         aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রানীক্ষেত বা ঝিমানো রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ইনক্লুশন বডি হেপাটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কলেরা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বসন্ত বা পক্স রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">সালমোনেলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত আমাশয় বা রক্ত পায়খানা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ক্যাংকার রোগের</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ঠান্ডা জনিত রোগ</a></li>
                                             </ul>
                                         </div>
@@ -232,23 +232,23 @@
                                         aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রানীক্ষেত বা ঝিমানো রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ইনক্লুশন বডি হেপাটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কলেরা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বসন্ত বা পক্স রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">সালমোনেলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত আমাশয় বা রক্ত পায়খানা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ক্যাংকার রোগের</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ঠান্ডা জনিত রোগ</a></li>
                                             </ul>
                                         </div>
@@ -266,23 +266,23 @@
                                         aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রানীক্ষেত বা ঝিমানো রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ইনক্লুশন বডি হেপাটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কলেরা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বসন্ত বা পক্স রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">সালমোনেলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত আমাশয় বা রক্ত পায়খানা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ক্যাংকার রোগের</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ঠান্ডা জনিত রোগ</a></li>
                                             </ul>
                                         </div>
@@ -300,23 +300,23 @@
                                         aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রানীক্ষেত বা ঝিমানো রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">ইনক্লুশন বডি হেপাটাইটিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কলেরা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">বসন্ত বা পক্স রোগ</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">সালমোনেলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">এসপারজিলোসিস</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">রক্ত আমাশয় বা রক্ত পায়খানা</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ক্যাংকার রোগের</a></li>
-                                                <li><a href="{{url('/disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
+                                                <li><a href="{{url('/Disease')}}"><img src="{{asset("asset/assets/img/right-arrow.png")}}"
                                                             alt="">কবুতরের ঠান্ডা জনিত রোগ</a></li>
                                             </ul>
                                         </div>
@@ -723,7 +723,7 @@
             <div class="row membership">
 
                     <div class="col-12">
-                        <p class="content_title"><img src="{{asset("asset/assets/img/registration.png")}}" alt="">মেম্বারশীপ গ্রহন</p>
+                        <p class="content_title"><img src="{{asset("asset/assets/img/membership.png")}}" alt="">মেম্বারশীপ গ্রহন</p>
                     </div>
 
                 <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
@@ -731,7 +731,7 @@
                         <h6>১ মাস</h6>
                         <h5><span>২১০</span> টাকা</h5>
                         <p>ভ্যাট + ট্যাক্স সহ</p>
-                        <a href="token.html" target="_blank">পছন্দ
+                        <a href="{{url("/Token")}}" target="_blank">পছন্দ
                             করুন</a>
                     </div>
                 </div>
@@ -741,7 +741,7 @@
                         <h5><span>৫৬৭</span> টাকা <del> ৬৩০<b>&#2547;</b></del>
                         </h5>
                         <p>১০% কমিশন (ভ্যাট + ট্যাক্স সহ)</p>
-                        <a href="token.html" target="_blank">পছন্দ
+                        <a href="{{url("/Token")}}" target="_blank">পছন্দ
                             করুন</a>
                     </div>
                 </div>
@@ -751,7 +751,7 @@
                         <h5><span>১০৭১</span> টাকা <del> ১২৬০<b>&#2547;</b></del>
                         </h5>
                         <p>১৫% কমিশন (ভ্যাট + ট্যাক্স সহ)</p>
-                        <a href="token.html" target="_blank">পছন্দ
+                        <a href="{{url("/Token")}}" target="_blank">পছন্দ
                             করুন</a>
                     </div>
                 </div>
@@ -761,7 +761,7 @@
                         <h5><span>২০১৬</span> টাকা <del> ২৫২০<b>&#2547;</b></del>
                         </h5>
                         <p>২০% কমিশন (ভ্যাট + ট্যাক্স সহ)</p>
-                        <a href="token.html" target="_blank">পছন্দ
+                        <a href="{{url("/Token")}}" target="_blank">পছন্দ
                             করুন</a>
                     </div>
                 </div>

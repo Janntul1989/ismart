@@ -6,13 +6,15 @@
     <title>Registration of Livestock Farm</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href={{ asset('asset/assets/img/logo.jpg') }}>
-    <link rel="icon" href={{ asset('asset/assets/img/logo.jpg') }}>
-    <link rel="stylesheet" href={{ asset('asset/assets/css/bootstrap.min.css') }}>
-    <link rel="stylesheet" href={{ asset('asset/assets/css/fontawesome_all.min.css') }}>
-    <link rel="stylesheet" href={{ asset('asset/assets/css/ma5-menu.min.css') }}>
-    <link rel="stylesheet" href={{ asset('asset/assets/css/style.css') }}>
-    <link rel="stylesheet" href={{ asset('asset/assets/css/responsive.css') }}>
+
+    <link rel="apple-touch-icon" href="{{asset('asset/assets/img/logo.jpg')}}">
+    <link rel="icon" href="{{asset('asset/assets/img/logo.jpg')}}">
+
+    <link rel="stylesheet" href="{{asset('asset/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/fontawesome_all.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('asset/assets/css/ma5-menu.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/assets/css/responsive.css')}}">
 
 </head>
 
@@ -27,7 +29,7 @@
                     </button>
                     <ul class="site-menu">
                         <li>
-                            <a href="disease.html" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
+                            <a href="{{url('/Disease')}}" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
 
                         </li>
                         <li>
@@ -409,3 +411,19 @@
             </div>
         </div>
     </section>
+    <script src="{{asset('asset/assets/js/jquery-3.6.1.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/modernizr-3.11.2.min.js')}}">
+<script src="{{asset('asset/assets/js/popper.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/ma5-menu.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/chart.js')}}"></script>
+<script src="{{asset('asset/assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('asset/assets/js/plugins.js')}}"></script>
+<script src="{{asset('asset/assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('asset/assets/js/main.js')}}"></script>
+<script src="{{asset('asset/assets/js/rationMy.js')}}"></script>
+<script src="{{asset('asset/assets/js/ration.js')}}"></script>
+
+</body>
+
+</html>
