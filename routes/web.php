@@ -53,4 +53,5 @@ Route::get('/alert_box', function () {
 });
 Route::get( '/login',[AuthController::class,'index']);
 Route::post( '/login',[AuthController::class,'login']);
+Route::get( '/logout',[AuthController::class,'logout']);
 Route::post( '/Registration',[AuthController::class, 'Registration'])->name('Registration');
