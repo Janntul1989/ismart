@@ -289,9 +289,9 @@
                         @endif
 
                         @if (Session::get('message'))
-                        <div class="alert alert-success" role="alert">
-                            {{Session::get('message')}}
-                        </div>
+                            <div class="alert alert-success" role="alert">
+                                {{ Session::get('message') }}
+                            </div>
                         @endif
                         <div class="form-group mb-3">
                             <label class="control-label" for="full_name">পুরো নাম</label>
@@ -409,3 +409,13 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(".menu_button").on("click", function() {
+            $(".site-menu").slideToggle();
+        });
+    </script>
+</body>
+
+</html>
