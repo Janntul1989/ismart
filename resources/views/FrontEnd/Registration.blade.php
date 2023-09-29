@@ -302,7 +302,7 @@
                         <div class="form-group mb-3">
                             <label class="control-label" for="number">ফোন
                                 নাম্বার</label>
-                            <input id="number" name="number" class="form-control" type="number" required>
+                            <input id="number" name="number" class="form-control"  placeholder="আপনার ফোন নাম্বার"  type="number" required>
                         </div>
 
                         <div class="form-group mb-3">

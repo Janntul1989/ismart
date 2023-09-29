@@ -52,4 +52,5 @@ Route::get('/alert_box', function () {
     return view('FrontEnd.alert_box');
 });
 Route::get( '/login',[AuthController::class,'index']);
+Route::post( '/login',[AuthController::class,'login']);
 Route::post( '/Registration',[AuthController::class, 'Registration'])->name('Registration');

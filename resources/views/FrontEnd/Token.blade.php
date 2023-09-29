@@ -261,13 +261,7 @@
                   <span class="close" onclick="closeModal()">&times;</span>
 
                   <div class="selection_wrap">
-                    <div class="price_item free">
-                      <h6>৭ দিন</h6>
-                      <h5> <span>০</span> টাকা</h5>
-                      <p>ফ্রী ট্রায়াল</p>
-                      <button onclick="displayPackageInfo('প্যাকেজ ১' , '৭ দিন', 'বিনামূল্যে')">পছন্দ
-                        করুন</button>
-                    </div>
+                   
 
                     <div class="price_item one_month">
                       <h6>১ মাস</h6>

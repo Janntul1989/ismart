@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Registration;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 class AuthController extends Controller
 {
     public function index()
@@ -35,4 +35,20 @@ class AuthController extends Controller
           ]);
           return redirect()->route("Registration")->with(['message'=>'Successfully Registered']);
     }
+
+    public function login(Request $request)
+    {
+        $request->validate([
+            "number"=>"required",
+          ]);
+
+           $user = Registration::where('number','=',$request->number)->first();
+          if($user) {
+           Auth::loginUsingId($user->id, TRUE);
+          return redirect()->back()->with("message","login successful.");
+          } else {
+          return redirect()->back()->with("message","user not found");
+          }
+    }
 }
+
