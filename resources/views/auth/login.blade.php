@@ -1,49 +1,48 @@
-<!DOCTYPE html>
-<html>
+<x-guest-layout>
+    <x-authentication-card>
+        <x-slot name="logo">
+            <x-authentication-card-logo />
+        </x-slot>
 
-<head>
-    <title>Login Form</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <x-validation-errors class="mb-4" />
 
-    <link rel="apple-touch-icon" href="{{ asset('asset/assets/img/logo.jpg') }}">
-    <link rel="icon" href="{{ asset('asset/assets/img/logo.jpg') }}">
-
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/fontawesome_all.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/ma5-menu.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/assets/css/responsive.css') }}">
-</head>
-
-<body>
-    {{-- {{ dd(Auth::id())}} --}}
-    <div class="login-container log">
-        <h1>Login</h1>
-        @if (Auth::id())
-            <div class="alert alert-success" role="alert">
-                You've logged in, Back to <a href="/">Home</a>, or <a href="/logout">Logout</a>
+        @if (session('status'))
+            <div class="mb-4 font-medium text-sm text-green-600">
+                {{ session('status') }}
             </div>
         @endif
-        @if (Session::get('message'))
-            <div class="alert alert-success" role="alert">
-                {{ Session::get('message') }}
-            </div>
-        @endif
-        <form method="post" action="" class="{{ Auth::id() ? 'd-none' : '' }}">
+
+        <form method="POST" action="{{ route('login') }}">
             @csrf
-            {{-- <label class="control-label" for="full_name">পুরো নাম</label>
-      <input id="full_name" name="full_name" placeholder="আপনার নাম লিখুন"
-          class="form-control" type="text" required>
-        <br> --}}
-            <label class="control-label" for="number">ফোন
-                নাম্বার</label>
-            <input id="number" name="number" class="form-control" placeholder="আপনার ফোন নাম্বার" type="number"
-                required>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-</body>
 
-</html>
+            <div>
+                <x-label for="email" value="{{ __('Email') }}" />
+                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="password" value="{{ __('Password') }}" />
+                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+            </div>
+
+            <div class="block mt-4">
+                <label for="remember_me" class="flex items-center">
+                    <x-checkbox id="remember_me" name="remember" />
+                    <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                </label>
+            </div>
+
+            <div class="flex items-center justify-end mt-4">
+                @if (Route::has('password.request'))
+                    <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
+                        {{ __('Forgot your password?') }}
+                    </a>
+                @endif
+
+                <x-button class="ml-4">
+                    {{ __('Log in') }}
+                </x-button>
+            </div>
+        </form>
+    </x-authentication-card>
+</x-guest-layout>

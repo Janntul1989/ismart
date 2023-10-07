@@ -501,14 +501,6 @@
                   <span class="close" onclick="closeModal()">&times;</span>
 
                   <div class="selection_wrap">
-                    <div class="price_item free">
-                      <h6>৭ দিন</h6>
-                      <h5> <span>০</span> টাকা</h5>
-                      <p>ফ্রী ট্রায়াল</p>
-                      <button onclick="displayPackageInfo('প্যাকেজ ১' , '৭ দিন', 'বিনামূল্যে')">পছন্দ
-                        করুন</button>
-                    </div>
-
                     <div class="price_item one_month">
                       <h6>১ মাস</h6>
                       <h5><span>২১০</span> টাকা</h5>
@@ -562,18 +554,18 @@
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="bikash-tab" data-bs-toggle="tab" data-bs-target="#bikash"
                       type="button" role="tab" aria-controls="bikash" aria-selected="true"><span
-                        class="payment_icon"><img src="assets/img/bkash-logo-835789094A-seeklogo.com.png"
+                        class="payment_icon"><img src="{{asset("asset/assets/img/bkash-logo-835789094A-seeklogo.com.png")}}"
                           alt=""></span></button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="nogod-tab" data-bs-toggle="tab" data-bs-target="#nogod" type="button"
                       role="tab" aria-controls="nogod" aria-selected="false"><span class="payment_icon"><img
-                          src="assets/img/Nagad-Logo.wine.png" alt=""></span></button>
+                          src="{{asset("asset/assets/img/Nagad-Logo.wine.png")}}" alt=""></span></button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="rocket-tab" data-bs-toggle="tab" data-bs-target="#rocket" type="button"
                       role="tab" aria-controls="rocket" aria-selected="false"><span class="payment_icon"><img
-                          src="assets/img/rocket.png" alt=""></span></button>
+                          src="{{ asset('asset/assets/img/rocket.png')}}"alt=""></span></button>
                   </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">

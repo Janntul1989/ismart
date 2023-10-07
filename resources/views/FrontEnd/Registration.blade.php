@@ -411,3 +411,21 @@
             </div>
         </div>
     </section>
+
+<script src="{{asset('asset/assets/js/jquery-3.6.1.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/modernizr-3.11.2.min.js')}}">
+<script src="{{asset('asset/assets/js/popper.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/ma5-menu.min.js')}}"></script>
+<script src="{{asset('asset/assets/js/chart.js')}}"></script>
+<script src="{{asset('asset/assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('asset/assets/js/plugins.js')}}"></script>
+<script src="{{asset('asset/assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('asset/assets/js/main.js')}}"></script>
+<script src="{{asset('asset/assets/js/rationMy.js')}}"></script>
+<script src="{{asset('asset/assets/js/ration.js')}}"></script>
+
+
+</body>
+
+</html>

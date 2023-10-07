@@ -27,31 +27,41 @@ Route::get('/', function () {
 //Route::get('/',[HomeController::class, 'index']);
 Route::get('/', function () {
     return view('FrontEnd.Home');
-});
+})->name('home');
 
 Route::get('/Registration', function () {
     return view('FrontEnd.Registration');
-});
+})->name('registration_page');
 
 
 Route::get('/Disease', function () {
     return view('FrontEnd.Disease');
-});
+})->name('disease');
 
 
 Route::get('/Ration', function () {
     return view('FrontEnd.Ration');
-});
+})->name('ration');
 
 Route::get('/Token',function()
 {
  return view('FrontEnd.Token');
-});
+})->name('token');
 
-Route::get('/alert_box', function () {
-    return view('FrontEnd.alert_box');
-});
-Route::get( '/login',[AuthController::class,'index']);
-Route::post( '/login',[AuthController::class,'login']);
-Route::get( '/logout',[AuthController::class,'logout']);
+// Route::get('/alert_box', function () {
+//     return view('FrontEnd.alert_box');
+// });
+Route::get( '/login',[AuthController::class,'index'])->name('login_page');
+Route::post( '/login',[AuthController::class,'login'])->name('login');
+Route::get( '/logout',[AuthController::class,'logout'])->name('logout');
 Route::post( '/Registration',[AuthController::class, 'Registration'])->name('Registration');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

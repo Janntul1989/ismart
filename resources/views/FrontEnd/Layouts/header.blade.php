@@ -37,7 +37,7 @@
                             <!-- source for mobile menu start -->
                             <ul class="site-menu">
                                 <li>
-                                    <a href="{{url('/Disease')}}" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
+                                    <a href="{{route('disease')}}" target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
 
                                 </li>
                                 <li>
@@ -337,7 +337,7 @@
                             </button>
                             <ul class="site-menu">
                                 <li>
-                                    <a href="{{url('/Disease')}}"  target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
+                                    <a href="{{route('disease')}}"target="_blank">রোগব্যাধি, টিকা ও প্রতিকার</a>
 
                                 </li>
                                 <li>
@@ -625,7 +625,7 @@
                             <div class="token_registration_wrap">
                                 <div class="token_registraion">
                                     <div class="registration_btn">
-                                        <a href="{{ url('/Registration') }}">নিবন্ধন করুন</a>
+                                        <a href="{{route('registration_page')}}" target="_blank">নিবন্ধন করুন</a>
                                     </div>
                                     {{-- <div class="token_btn">
                                         <button class="token" type="button" data-bs-toggle="modal"
@@ -633,7 +633,7 @@
                                         <!-- Modal -->
                                         <div class="token_btn">
                                             <div class="token">
-                                                <a href="{{ url('/Token') }}">সেবা নিন</a>
+                                                <a href="{{route('token')}}" target="_blank">সেবা নিন</a>
                                             </div>
                                         <div class="modal fade" id="get_service" tabindex="-1"
                                             aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -925,7 +925,7 @@
                                                                                 aria-controls="rocket"
                                                                                 aria-selected="false"><span
                                                                                     class="payment_icon"><img
-                                                                                        src="{{ asset('asset/assets/img/rocket.png') }}"
+                                                                                        src="{{ asset('asset/assets/img/rocket.png')}}"
                                                                                         alt=""></span></button>
                                                                         </li>
                                                                     </ul>
