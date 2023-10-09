@@ -1,4 +1,4 @@
-@include('FrontEnd.Layouts.header')
+@include('frontEnd.Layouts.header')
 @yield('main.container')
-@include('FrontEnd.Layouts.footer')
+@include('frontEnd.Layouts.footer')
 
