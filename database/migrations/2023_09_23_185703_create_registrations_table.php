@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('registrations', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id')->nullable();
             $table->string('full_name')->nullable();
             $table->string('number',11)->unique()->nullable();
             $table->timestamp('number_verified_at')->nullable();

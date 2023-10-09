@@ -16,6 +16,7 @@ class AuthController extends Controller
   public function Registration(Request $request)
   {
     // dd($request->all());
+    // dd($request->number);
     $request->validate([
       "number" => "required|min:11|max:11|unique:registrations",
     ], [
@@ -24,6 +25,14 @@ class AuthController extends Controller
       "number.max" => " The Phone Number field must not be greater than 11 characters. ",
       "number.unique" => " The Phone Number has already been taken",
     ]);
+
+    
+
+    $user = User::create([
+      "name" => $request->full_name,
+      "number" => $request->number,
+    ]);
+
 
     Registration::create([
       "full_name" => $request->full_name,
@@ -34,12 +43,7 @@ class AuthController extends Controller
       "bird" => $request->bird,
       "farmer" => $request->farm,
       "licence" => $request->licence,
-    ]);
-
-
-    User::create([
-      "name" => $request->full_name,
-      "number" => $request->number,
+      "user_id" => $user->id,
     ]);
 
     return redirect()->route("Registration")->with(['message' => 'Successfully Registered']);
