@@ -1,5 +1,5 @@
 
-@extends('frontend.layouts.main')
+@extends('FrontEnd.Layouts.main')
 @section('main.container')
             <div class="breadcrumb_title">
                 <h2>রোগব্যাধি, টিকা ও প্রতিকার</h2>
