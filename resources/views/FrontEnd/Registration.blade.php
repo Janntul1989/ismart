@@ -309,7 +309,7 @@
 
                         <div class="form-group mb-3">
                             <label class="control-label" for="nid_number">জাতীয় পরিচয় পত্র নাম্বার</label>
-                            <input name="nid_number" id="nid_number" class="form-control" type="number" required>
+                            <input name="nid_number" id="nid_number" class="form-control" type="number" >
                         </div>
 
                         <div class="form-group mb-3">

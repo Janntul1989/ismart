@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const buffaloweight = (buffalobodyLength * buffalochestSize ** 2) / 660;
 
                 buffaloweightResult.textContent = buffaloweight.toFixed(2) + ' kg';
-        }
+        }    
 
         function resetCalculator() {
                 buffalochestInput.value = '';

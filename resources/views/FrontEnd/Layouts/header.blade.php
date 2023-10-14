@@ -627,6 +627,7 @@
                                     <div class="registration_btn">
                                         <a href="{{route('registration_page')}}" target="_blank">নিবন্ধন করুন</a>
                                     </div>
+                                    
                                     {{-- <div class="token_btn">
                                         <button class="token" type="button" data-bs-toggle="modal"
                                             data-bs-target="#get_service">   <a href="{{ url('/Registration') }}">সেবা নিন</a></button> --}}

@@ -26,7 +26,7 @@ class AuthController extends Controller
       "number.unique" => " The Phone Number has already been taken",
     ]);
 
-    
+
 
     $user = User::create([
       "name" => $request->full_name,
@@ -46,7 +46,7 @@ class AuthController extends Controller
       "user_id" => $user->id,
     ]);
 
-    return redirect()->route("Registration")->with(['message' => 'Successfully Registered']);
+    return redirect()->route("login_page")->with(['message' => 'Successfully Registered']);
   }
 
   public function login(Request $request)
