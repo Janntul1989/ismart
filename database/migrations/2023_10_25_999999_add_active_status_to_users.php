@@ -4,8 +4,12 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddActiveStatusToUsers extends Migration
+class AddActiveStatusToUsersV2 extends Migration
 {
+    // Your migration code here
+
+
+
     /**
      * Run the migrations.
      *
